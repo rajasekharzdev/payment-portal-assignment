@@ -1,0 +1,29 @@
+.font-color {
+  color: #f9fbfc;
+  font-size: 12px;
+  &.active {
+    color: #f9fbfc;
+  }
+}
+
+.incorporationAndSettings {
+  display: flex;
+  margin-left: auto;
+}
+
+@media only screen and (min-width: 992px) {
+  .padding-left {
+    padding-left: 16px;
+  }
+  .container-padding {
+    padding-left: 0px;
+  }
+  .center {
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+  }
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding-left: 0px;
+  }
+}

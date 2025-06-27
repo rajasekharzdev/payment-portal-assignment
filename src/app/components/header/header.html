@@ -1,0 +1,107 @@
+<div style="background-color: #1b4f75; color: #f9fbfc">
+  <div class="center">
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid container-padding">
+        <button
+          class="navbar-toggler navbar-dark"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarTogglerDemo03"
+          aria-controls="navbarTogglerDemo03"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+          <ul class="navbar-nav mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a
+                class="nav-link active font-color"
+                aria-current="page"
+                href="#"
+                [routerLink]="['/dashboard']"
+                >Dashboard</a
+              >
+            </li>
+            <li class="nav-item dropdown padding-left">
+              <a
+                class="nav-link dropdown-toggle font-color"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Payments & Transfers
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown padding-left">
+              <a
+                class="nav-link dropdown-toggle font-color"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Supplies
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item padding-left">
+              <a class="nav-link font-color" href="#">Help Centre</a>
+            </li>
+          </ul>
+
+          <div class="incorporationAndSettings">
+            <ul class="navbar-nav mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a
+                  class="nav-link active font-color"
+                  aria-current="page"
+                  href="#"
+                  >{{ incorporationName }}</a
+                >
+              </li>
+              <li class="nav-item dropdown padding-left">
+                <a
+                  class="nav-link dropdown-toggle font-color"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  <span style="color: #8fd7fe">
+                    <fa-icon [icon]="faGear" [size]="'xl'"></fa-icon>
+                  </span>
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </div>
+</div>
