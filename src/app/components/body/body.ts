@@ -11,6 +11,7 @@ import { FormsModule, ReactiveFormsModule, FormControl } from '@angular/forms';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { Router } from '@angular/router';
 import { Footer } from '../footer/footer';
+import { QuickPayTransfer } from '../quick-pay-transfer/quick-pay-transfer';
 
 @Component({
   selector: 'app-body',
@@ -21,7 +22,7 @@ import { Footer } from '../footer/footer';
     MatSelectModule,
     FormsModule,
     ReactiveFormsModule,
-    Footer,
+    QuickPayTransfer,
   ],
   templateUrl: './body.html',
   styleUrl: './body.scss',
